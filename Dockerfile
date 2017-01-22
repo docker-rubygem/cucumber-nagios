@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.8.8
+ENV VERSION=0.8.9
 
 RUN gem install cucumber-nagios --version ${VERSION} --no-format-exec
 
